@@ -10,6 +10,18 @@ A React challenge project to test my skills when it comes to building UIs.
 - TypeScript
 - TailwindCSS
 
+## Accessing the project code
+
+You can access the code through the submitted zip file. After extracting the file, open the folder with a name **Question1**.
+
+OR
+
+You can clone the repository:
+
+```
+https://github.com/engrjeff/showpo-challenge.git
+```
+
 ## How to run the project?
 
 To run the project locally, first install the dependencies:
