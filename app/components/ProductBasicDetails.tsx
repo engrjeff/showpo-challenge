@@ -1,7 +1,7 @@
 import React from "react";
-import Link from "next/link";
 
 import Rating from "./Rating";
+import ReviewsInfo from "./ReviewsInfo";
 
 interface ProductBasicDetailsProps {
   name: string;
@@ -30,10 +30,7 @@ function ProductBasicDetails({
       <span className='font-medium'>AfterPay</span>
       <div className='flex items-center gap-3'>
         <Rating rating={rating} />
-        <span className='text-xs text-appGray font-light'>(10) Reviews</span>
-        <Link href='/' className='text-xs uppercase underline font-semibold'>
-          See Reviews
-        </Link>
+        <ReviewsInfo reviewCount={10} />
       </div>
     </div>
   );
